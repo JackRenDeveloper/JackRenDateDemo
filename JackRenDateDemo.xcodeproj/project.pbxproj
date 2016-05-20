@@ -15,6 +15,7 @@
 		FDE414791CEF7A1500EAAB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE414771CEF7A1500EAAB12 /* LaunchScreen.storyboard */; };
 		FDE414841CEF7A1500EAAB12 /* JackRenDateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE414831CEF7A1500EAAB12 /* JackRenDateDemoTests.m */; };
 		FDE4148F1CEF7A1500EAAB12 /* JackRenDateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4148E1CEF7A1500EAAB12 /* JackRenDateDemoUITests.m */; };
+		FDE4149F1CEF7A6300EAAB12 /* JackRenDateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE4149E1CEF7A6300EAAB12 /* JackRenDateClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FDE4148A1CEF7A1500EAAB12 /* JackRenDateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackRenDateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE4148E1CEF7A1500EAAB12 /* JackRenDateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackRenDateDemoUITests.m; sourceTree = "<group>"; };
 		FDE414901CEF7A1500EAAB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE4149D1CEF7A6300EAAB12 /* JackRenDateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JackRenDateClass.h; sourceTree = "<group>"; };
+		FDE4149E1CEF7A6300EAAB12 /* JackRenDateClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JackRenDateClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		FDE414681CEF7A1500EAAB12 /* JackRenDateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDE4149C1CEF7A3B00EAAB12 /* dateClass */,
 				FDE4146C1CEF7A1500EAAB12 /* AppDelegate.h */,
 				FDE4146D1CEF7A1500EAAB12 /* AppDelegate.m */,
 				FDE4146F1CEF7A1500EAAB12 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				FDE414901CEF7A1500EAAB12 /* Info.plist */,
 			);
 			path = JackRenDateDemoUITests;
+			sourceTree = "<group>";
+		};
+		FDE4149C1CEF7A3B00EAAB12 /* dateClass */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4149D1CEF7A6300EAAB12 /* JackRenDateClass.h */,
+				FDE4149E1CEF7A6300EAAB12 /* JackRenDateClass.m */,
+			);
+			name = dateClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				FDE414711CEF7A1500EAAB12 /* ViewController.m in Sources */,
 				FDE4146E1CEF7A1500EAAB12 /* AppDelegate.m in Sources */,
 				FDE4146B1CEF7A1500EAAB12 /* main.m in Sources */,
+				FDE4149F1CEF7A6300EAAB12 /* JackRenDateClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
